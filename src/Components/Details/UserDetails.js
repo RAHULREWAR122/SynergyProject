@@ -27,21 +27,6 @@ function UserDetails({users}) {
              <h2>name : {data?.name}</h2>
              <p>Email : {data?.email}</p>
              <p>Mobile : {data?.phone}</p>
-             <p>Website : {data?.website}</p>
-             
-             <div>
-             <h3 className='underline'>Address</h3>
-             <p>City : {data?.address?.city}</p>
-             <p>Street : {data?.address?.street}</p>
-             <p>ZipCode : {data?.address?.zipcode}</p>
-            </div>
-             
-             <div>
-             <h3 className='underline'>Company</h3>
-             <p>City : {data?.company?.name}</p>
-             <p>CatchPhrase : {data?.company?.catchPhrase}</p>
-            </div>
-
         </div>
          
     </div>
